@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="top-navbar">
+            <h1>VENGADAKRISHNAN T</h1>
+            <div class="top-navbar-links">
+                <a href="#about-me" class="top-navbar-links">About</a>
+                <a href="#education" class="top-navbar-links">Education</a>
+                <a href="#skills" class="top-navbar-links">Skills</a>
+                <a href="#projects" class="top-navbar-links">Projects</a>
+                <a href="#contact" class="top-navbar-links">Contact</a>
+            </div>
+            <div class="menu-bar" onclick="showNav(event)">
+                <p><i class="fa-solid fa-bars"></i></p>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="side-navbar">
+            <div class="side-menubar" onclick="hideNav(event)">
+                <p><i class="fa-solid fa-xmark"></i></p>
+
+            </div>
+            <div class="side-navbar-links">
+                <a href="#about-me" class="side-navbar-links">About Me</a>
+                <a href="#education" class="side-navbar-links">Education</a>
+                <a href="#skills" class="side-navbar-links">Skills</a>
+                <a href="#projects" class="side-navbar-links">Projects</a>
+                <a href="#contact" class="side-navbar-links">Contact us</a>
+            </div>
+        </div>
+    </header>
+    <section class="about-me-container" id="about-me">
+        <div class="image-div">
+            <img src="img\profile.jpg" class="image">
+        </div>
+        <div class="about-me">
+            <h2>Hi.. It's Vengadakrishnan</h2>
+            <h2>I'm <span>Web Developer</span></h2>
+            <p>Lorem ipsum aliquid voluptatibus deleniti enim, facere veniam possimus quae. Quam reprehenderit,
+                blanditiis aut quas optio vitae quis laborum eaque.</p>
+        </div>
+    </section>
+    <section id="education">
+        <h1 style="text-align: center; font-size:xx-large;">Education</h1>
+        <div class="education-container">
+            <div class="education">
+                <h2>Jaya Engineering College</h2>
+                <h3>Bachelor Of Technology</h3>
+                <h4>Percentage : 75 %</h4>
+            </div>
+            <div class="education">
+                <h2>Sri Saraswathi Matric HR Sec School</h2>
+                <h3>Higher Secondary</h3>
+                <h4>Percentage : 67 %</h4>
+            </div>
+            <div class="education">
+                <h2>Sri Saraswathi Matric HR Sec School</h2>
+                <h3>Secondary School Leaving Certificate</h3>
+                <h4>Percentage : 80 %</h4>
+            </div>
+        </div>
+    </section><hr>
+    <section id="skills">
+        <h1 style="text-align: center; font-size:xx-large">Skills</h1>
+        <div class="skills">
+
+            <ul class="skills-list">
+                <div>
+                    <p><i class="fa-brands fa-html5"></i></p>
+                    <li>HTML</li>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-css3-alt"></i></p>
+                    <li>CSS</li>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-js"></i></p>
+                    <li>JavaScript</li>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-react"></i></p>
+                    <li>Reactjs</li>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-python"></i></p>
+                    <li>Python</li>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-github"></i></p>
+                    <li>Git & GitHub</li>
+                </div>
+            </ul>
+        </div><hr>
+        <div class="technical-skills">
+            <h1 style="text-align: center; font-size:xx-large;">Technical Skills</h1>
+            <ul>
+                <li>Web Development</li>
+                <li>Big Data</li>
+                <li>Cyber Security</li>
+                <li>Software Engineering</li>
+                <li>Computer Networks</li>
+                <li>E-Commerce</li>
+
+            </ul>
+        </div>
+
+    </section><hr>
+    <section id="projects">
+        <h1 style="text-align: center; font-size:xx-large;">Projects</h1>
+        <p style="text-align: center;">Let's See My Works</p>
+        <div class="project-container">
+            
+            <div class="project1">
+                <img src="img/1.jpeg">
+                <h3>Booksky</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eveniet accusantium, minima labore nulla dolorum non praesentium a quidem laborum dignissimos blanditiis. Repudiandae ipsum saepe, enim maiores quidem optio culpa?</p>
+            </div>
+            <div class="project1">
+                <img src="img/6.jpeg">
+                <h3>Wheather API</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta modi eum voluptates. Nisi modi animi neque eligendi, quidem molestiae ratione exercitationem est facilis itaque corrupti nihil veniam delectus cum qui!</p>
+            </div>
+            <div class="project1">
+                <img src="img/2.jpeg">
+                <h3>Healthcare data Security System</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, molestiae incidunt dolorem molestias nam magnam temporibus distinctio voluptatem possimus rem quam, eum eaque. Dolor atque doloribus facilis ad numquam tempore.</p>
+            </div>
+            <div class="project1">
+                <img src="img/6.jpeg">
+                <h3>Sport Complex Booking System</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ad suscipit aperiam harum eaque odit accusamus maxime voluptate id tenetur officia, sequi officiis, recusandae quasi facere, adipisci delectus ipsam tempore!</p>
+            </div>
+        </div>
+    </section><hr>
+    <section id="contact">
+        <h1 style="text-align: center; font-size: xx-large;">Contact</h1>
+        <form id="contact-form">
+            <div class="contact-container">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="phone">Phone No:</label>
+                    <input type="number" id="phone" placeholder="Phone No" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit">Submit</button>
+                </div> 
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="footer-item">
+        <div>
+           <p>&copy Vengadakrishnan 2024. All Rights Reserved.</p>
+        </div>
+        <div>
+            <p>
+                <!-- Email Icon -->
+                <a href="mailto:vengadakrishna766@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/v engadakrishnan-t-482505250" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                
+                <!-- GitHub Icon -->
+                <a href="https://github.com/vengat10" target="_blank"><i class="fa-brands fa-github"></i></a>
+                
+                <!-- YouTube Icon -->
+                <a href="http://www.youtube.com/@TheDevHub-q8s" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </p>
+            
+            
+        </div>
+
+        </div>
+        
+    </footer>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- Initialize EmailJS -->
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("VWMFSrY1i3vDIkmkv");
+        })();
+    </script>
+
+    <script src="script.js" def()></script>
+
+</body>
+
+</html>
