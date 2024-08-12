@@ -12,6 +12,13 @@ body {
     color: white;
     opacity: 0.9;
 }
+.skills-list div, .about-me p {
+    text-align: justify;    /* Aligns text evenly on both left and right sides */
+    word-spacing: 0.5px;      /* Adjusts space between words */
+    letter-spacing: 0.5px;  /* Adjusts space between letters */
+    line-height: 1.5;       /* Adjusts space between lines */
+    margin: 5px ;         /* Adds space above and below the paragraph */
+}
 
 h1 {
     color: #fd6569;
@@ -111,13 +118,13 @@ hr {
 }
 
 .image {
-    padding: 30px;
-    margin-left: 20px;
-    margin-top: 50px;
+    padding-left: 30px;
+    margin: 20px;
+    margin-top: 60px;
     border-radius: 60%;
     flex-grow: 1;
     flex-basis: 100%;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -166,7 +173,7 @@ hr {
     margin: 10px 100px;
 }
 
-.skills-list div, .technical-skills li {
+.skills-list div {
     background: #f0f2f5;
     color: #333;
     padding: 10px 15px;
@@ -176,6 +183,19 @@ hr {
     flex-grow: 1;
     flex-basis: 25%;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.technical-skills li {
+    background: #f0f2f5;
+    color: #333;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -212,6 +232,7 @@ hr {
 .project1 p {
     padding: 10px;
     margin-left: 10px;
+    
 }
 
 /* Contact Section */
@@ -346,11 +367,24 @@ hr {
     .about-me-container {
         flex-direction: column;
     }
-    
+    .image{
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+        max-width: 100%;
+    }
+    .about-me, .project1 {
+            text-align: justify;    /* Aligns text evenly on both left and right sides */
+            word-spacing: 1px;      /* Adjusts space between words */
+            letter-spacing: 0.2px;  /* Adjusts space between letters */
+            line-height: 1.6;       /* Adjusts space between lines */
+            margin: 10px 0;         /* Adds space above and below the paragraph */
+}
     .education-container, .skills-list, .technical-skills ul {
         flex-direction: column;
+        margin: 20px;
+        padding: 10px;
     }
-
     .project1 {
         flex-basis: 36%;
     }
@@ -360,3 +394,4 @@ hr {
         left: 10%;
         padding: 20px;
     }
+}
