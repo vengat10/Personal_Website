@@ -12,12 +12,24 @@ body {
     color: white;
     opacity: 0.9;
 }
-.skills-list div, .about-me p {
-    text-align: justify;    /* Aligns text evenly on both left and right sides */
-    word-spacing: 0.5px;      /* Adjusts space between words */
-    letter-spacing: 0.5px;  /* Adjusts space between letters */
-    line-height: 1.5;       /* Adjusts space between lines */
-    margin: 5px ;         /* Adds space above and below the paragraph */
+.about-me p {
+    text-align: justify;        
+    word-spacing: 2px;          
+    letter-spacing: 0.5px;    
+    line-height: 1.6;          
+    margin: 10px 0;           
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px;            
+    color:white;          
+}
+.project-container, .project1 p{
+    text-align: justify;        
+    word-spacing: 2px;          
+    letter-spacing: 0.5px;    
+    line-height: 1.6;          
+    margin: 10px 0;           
+    font-size: 16px;            
+    color: #333;    
 }
 
 h1 {
@@ -27,7 +39,7 @@ h1 {
 hr {
     width: 70%;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid #060505;
     padding: 20px;
     margin: 20px auto;
 }
@@ -371,15 +383,15 @@ hr {
         margin: 0;
         padding: 0;
         margin-top: 70px;
-        max-width: 100%;
+        max-width: 70%;
+        margin-left: 72px;
     }
-    .about-me, .project1 {
-            text-align: justify;    /* Aligns text evenly on both left and right sides */
-            word-spacing: 1px;      /* Adjusts space between words */
-            letter-spacing: 0.2px;  /* Adjusts space between letters */
-            line-height: 1.6;       /* Adjusts space between lines */
-            margin: 10px 0;         /* Adds space above and below the paragraph */
-}
+    /* .about-me, .project1 {
+            text-align: justify;    
+            letter-spacing: 0.2px; 
+            line-height: 1.6;       
+             margin: 10px 0;         
+    } */
     .education-container, .skills-list, .technical-skills ul {
         flex-direction: column;
         margin: 20px;
@@ -393,5 +405,9 @@ hr {
         width: 80%;
         left: 10%;
         padding: 20px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
     }
 }
