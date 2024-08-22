@@ -367,7 +367,7 @@ hr {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 891px) {
     .top-navbar-links {
         display: none;
     }
@@ -386,12 +386,7 @@ hr {
         max-width: 70%;
         margin-left: 72px;
     }
-    /* .about-me, .project1 {
-            text-align: justify;    
-            letter-spacing: 0.2px; 
-            line-height: 1.6;       
-             margin: 10px 0;         
-    } */
+
     .education-container, .skills-list, .technical-skills ul {
         flex-direction: column;
         margin: 20px;
