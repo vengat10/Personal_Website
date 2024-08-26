@@ -22,15 +22,6 @@ body {
     font-size: 16px;            
     color:white;          
 }
-.project-container, .project1 p{
-    text-align: justify;        
-    word-spacing: 2px;          
-    letter-spacing: 0.5px;    
-    line-height: 1.6;          
-    margin: 10px 0;           
-    font-size: 16px;            
-    color: #333;    
-}
 
 h1 {
     color: #fd6569;
@@ -243,10 +234,47 @@ hr {
 
 .project1 p {
     padding: 10px;
+    margin: 10px;
     margin-left: 10px;
+    text-align: justify;        
+    word-spacing: 0.2px;          
+    letter-spacing: 0.5px;    
+    line-height: 1.6;          
+    margin: 10px 0;           
+    font-size: 16px;   
+}
+.button{
+    display:flex;
+    justify-content: space-around;
+    bottom: 5px;
+    margin: 10px;
     
 }
+.button >  .code{
+    background-color: rgb(3, 42, 29); 
+    color: white;
+    padding: 10px;
+    border-radius:7px;
+    border: none;
+    text-decoration: none;
 
+}
+.button > .view{
+    background-color: rgb(3, 42, 29); 
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius:7px;
+    border: none;
+    text-decoration: none;
+}
+.code:hover{
+    background-color: rgb(1, 70, 47);
+    transform: scale(1.05);
+}
+.view:hover{
+     background-color: rgb(1, 70, 47);
+    transform: scale(1.05);
+}
 /* Contact Section */
 .contact-container {
     display: flex;
@@ -374,6 +402,7 @@ hr {
     
     .menu-bar {
         display: block;
+        font-size: 30px;
     }
     
     .about-me-container {
